@@ -1,0 +1,137 @@
+*{
+  margin:0;
+  padding: 0;
+  z-index: 1;
+}
+
+.App {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.formAdd{
+  width:400px;
+  height:30px;
+  border-radius: 3px;
+  border: 1px solid rgb(128, 128, 128);
+  text-align: center;
+  margin-left: 50px;
+}
+
+.buttonAdd{
+  margin-top: 50px;
+  padding: 0px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border:#282c34;
+  background: linear-gradient(90deg, #ff6363 0%, #ff5050 100%);
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: black;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+
+}
+
+.buttonAdd:focus {
+  box-shadow: inset 0px 0.8px 0px -0.25px rgba(255, 255, 255, 0.2), 0px 0.5px 1px rgba(0, 0, 0, 0.1), 0px 0px 0px 3.5px rgba(58, 108, 217, 0.5);
+  outline: 0;
+}
+
+.btn{
+  margin-top: 20px;
+  padding: 0px 14px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Roboto', sans-serif;
+  border-radius: 6px;
+  border:#282c34;
+  background: linear-gradient(90deg, #a10000 0%, #ff0000 100%);
+    box-shadow: 0px 0.5px 1px rgba(0, 0, 0, 0.1), inset 0px 0.5px 0.5px rgba(255, 255, 255, 0.5), 0px 0px 0px 0.5px rgba(0, 0, 0, 0.12);
+  color: black;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-bottom: 20px;
+  width: 150px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.UserCard{
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  height: 600px;
+  background: linear-gradient(90deg, #ff8a8a 0%, #ff2c2c 100%);
+  transition:.60s;
+  border-radius: 2%;
+  transform: rotatex(20deg) translatey(-50px) translatez(-10px);
+  box-shadow: 0px 20px 60px rgba(0,0,0, 0.5);
+}
+
+.UserCard:hover{
+  transform: scale(1.15);
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  z-index: 10;
+  opacity: 0.8;
+  transform: rotate(2deg);
+ 
+}
+
+.h1{
+  color: rgb(255, 0, 0), 
+}
+h2{
+  color: rgb(255, 0, 0), 
+}
+h3{
+  color: rgb(255, 0, 0), 
+}
+
+.UserList{
+  display:grid;
+  grid-template-columns: auto auto auto auto auto;
+  
+}
